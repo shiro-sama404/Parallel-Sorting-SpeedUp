@@ -16,7 +16,7 @@ void generate_dna_sequence(char* seq, int length) {
 int main(int argc, char* argv[]) {
     if (argc != 3) {
         printf("Falha ao rodar o programa: quantidade inválida de argumentos\n");
-        printf("Formato: %s <número_de_sequências> <nome_arquivo_saída>\n", argv[0]);
+        printf("Formato de execução: %s <número_de_sequências> <nome_arquivo_saída>\n", argv[0]);
         return 1;
     }
 

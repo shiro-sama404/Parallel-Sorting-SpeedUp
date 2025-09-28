@@ -87,7 +87,7 @@ int main(int argc, char** argv) {
     MPI_Comm_size(MPI_COMM_WORLD, &size);
 
     if (argc != 3) {
-        if (rank == MASTER) { cerr << "Uso: mpirun -np <N> " << argv[0] << " <arquivo_entrada> <arquivo_saida>\n"; }
+        if (rank == MASTER) { cerr << "Formato de execução: mpirun -np <N> " << argv[0] << " <arquivo_entrada> <arquivo_saida>\n"; }
         MPI_Finalize();
         return 1;
     }
