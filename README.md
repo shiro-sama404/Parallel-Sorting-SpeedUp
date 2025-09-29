@@ -14,7 +14,7 @@ Os principais objetivos deste projeto são:
 
 ## Resultados
 
-Os resultados estão dispostos em [`Relatório.pdf`]([https://link-url-here.org](https://github.com/shiro-sama404/Parallel-Sorting-SpeedUp/blob/main/Relat%C3%B3rio.pdf)) e foram obtidos utilizando grandes volumes de dados em 3 arquivos contendo 100 mil, 1 milhão e 10 milhões de sequências e estão dispostos [AQUI](https://link-url-here.org).
+Os resultados estão dispostos em [`Relatório.pdf`]([https://link-url-here.org](https://github.com/shiro-sama404/Parallel-Sorting-SpeedUp/blob/main/Relat%C3%B3rio.pdf)) e foram obtidos utilizando grandes volumes de dados em 3 arquivos contendo 100 mil, 1 milhão e 10 milhões de sequências e estão dispostos [AQUI](https://drive.google.com/drive/folders/1v_0k624A_p1z2gTOr4E3EtSv9Y81Lp-O?usp=sharing).
 
 ## Requisitos
 
@@ -23,7 +23,8 @@ Os resultados estão dispostos em [`Relatório.pdf`]([https://link-url-here.org]
   - Compilador GCC/MinGW
 
 - Sistema Operacional Windows
-  - MS MPI (ou usar WSL com outro MPI de sua escolha)
+  - MS MPI
+  - Compilador MSVC
 
 ## Como Executar
 
